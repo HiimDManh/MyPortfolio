@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>VuDucManh | Portfolio</title>
+    <meta name="description" content="My Portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.31/fullpage.min.css">
+</head>
+
+<body>
+    <div id="fullPage">
+        <div class="section s1">
+            <h1>This is first section<a href="#section1"></a></h1>
+        </div>
+        <div class="section s2">
+            <h1>This is first section<a href="#section2"></a></h1>
+        </div>
+        <div class="section s3">
+            <h1>This is first section<a href="#section3"></a></h1>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.31/fullpage.min.js"></script>
+    <script>
+        new fullpage('#fullPage', {
+            autoScrolling: true,
+            navigation: true,
+            author: ['section1', 'section2', 'section3'],
+            navigationTooltips: ['Home', 'About us', "Contact"],
+            showActiveTooltips: true,
+            scrollingSpeed: 2500,
+        });
+    </script>
+</body>
+
+</html>
